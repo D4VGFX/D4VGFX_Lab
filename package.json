@@ -1,0 +1,19 @@
+{
+  "name": "d4vgfx-lab",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --dotfiles"
+  },
+  "dependencies": {
+    "astro": "^5.12.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
