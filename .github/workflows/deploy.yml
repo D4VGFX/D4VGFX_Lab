@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -23,42 +23,24 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Clean and install dependencies
-        run: |
-          rm -rf node_modules package-lock.json
-          npm install --force
+      - name: Install dependencies
+        run: npm install
 
       - name: Build with Astro
         run: npm run build
 
-      - name: Upload dist folder
-        uses: actions/upload-artifact@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: dist
-          path: dist
+          path: ./dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: dist
-          path: dist
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          cache: 'npm'
-
-      - name: Install gh-pages
-        run: npm install -g gh-pages
-
       - name: Deploy to GitHub Pages
-        run: gh-pages -d dist -b gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: deployment
+        uses: actions/deploy-pages@v4
