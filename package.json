@@ -11,7 +11,8 @@
     "deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
-    "astro": "^5.12.1"
+    "astro": "^5.12.1",
+    "rollup": "^4.45.1"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
