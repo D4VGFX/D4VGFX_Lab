@@ -31,6 +31,9 @@ jobs:
 
       - name: Build with Astro
         run: npm run build
+        env:
+          ROLLUP_DISABLE_NATIVE: "true"
+
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
