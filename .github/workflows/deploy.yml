@@ -23,21 +23,31 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Install dependencies (force optional)
-        run: npm install --force
+      - name: Clean and install dependencies
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install --force
 
       - name: Build with Astro
         run: npm run build
+
+      - name: Upload dist folder
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: dist
+          path: dist
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -45,12 +55,10 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Install dependencies (force optional)
-        run: npm install --force
+      - name: Install gh-pages
+        run: npm install -g gh-pages
 
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+        run: gh-pages -d dist -b gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
