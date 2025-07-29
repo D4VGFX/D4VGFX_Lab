@@ -834,7 +834,7 @@ footer {
 }
 
 /*MEDIA QUERIES*/
-@media (max-width: 320.6px) {
+@media (max-width: 330px) {
     nav {
     gap: 0.5rem;
     height: 35px;
@@ -848,7 +848,7 @@ footer {
 
 .navlinks a {
     gap: 0px;
-    font-size: 6px;
+    font-size: 7px;
     margin-right: 10px;
 }
 
