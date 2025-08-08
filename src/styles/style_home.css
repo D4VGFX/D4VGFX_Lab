@@ -43,6 +43,7 @@ nav {
     object-fit: contain;
     justify-content: center;
     margin-right: 15px;
+    padding-top: 2.5px;
 }
 
 .navlinks a {
