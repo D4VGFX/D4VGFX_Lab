@@ -349,4 +349,41 @@ footer {
         text-align: center;
         padding: 10px 0;
     }
+
+    h4 {
+        color: #f5f5f5;
+        font-weight: 400;
+        font-size: 12px;
+        margin: 10px 0;
+        margin-left: 6px;
+    }
+
+    p {
+        color: #f5f5f5;
+        font-weight: 400;
+        font-size: 10px;
+        margin: 0 auto;
+        padding: 12px 0;
+        width: 75%;
+    }
     /*END FOOTER TEXTS*/
+.bottom {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+}
+
+.logo-bottom {
+    height: 16px;
+    width: auto;
+    object-fit: contain;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.line-footer {
+    width: 75%;
+    margin: 5px auto;
+    color: #f5f5f5;
+}
