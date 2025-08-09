@@ -74,7 +74,7 @@
 /*-----------------------------------------------------------------------------*/
     /*FIRST*/
     .first {
-        background: linear-gradient(135deg, rgb(0, 100, 100), rgb(0, 0, 100));
+        background: linear-gradient(135deg, rgb(0, 100, 75), rgb(75, 0, 100));
         margin-bottom: 5px;
     }
 
@@ -95,7 +95,7 @@
         .btn1 {
             margin-top: 25px;
             margin-bottom: 15px;
-            background: linear-gradient(135deg, rgba(0, 0, 255, 0.9), rgba(255, 0, 102, 0.9));
+            background: linear-gradient(135deg, rgba(153, 56, 188, 0.9), rgba(207, 45, 136, 0.9), rgba(243, 105, 52, 0.9), rgba(254, 201, 103, 0.9));
             color: #f5f5f5;
             border: none;
             padding: 12px 24px;
@@ -116,7 +116,7 @@
         .btn2 {
             margin-top: 25px;
             margin-bottom: 15px;
-            background: linear-gradient(135deg, rgba(255, 0, 0, 0.9), rgba(255, 136, 0, 0.9));
+            background: linear-gradient(135deg, rgba(0, 255, 0, 0.9), rgba(150, 255, 150, 0.9));
             color: #f5f5f5;
             border: none;
             padding: 12px 24px;
@@ -125,6 +125,7 @@
             cursor: pointer;
             transition: 0.2s ease;
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+            margin-right: 20px;
         }
 
         .btn2:hover {
@@ -137,7 +138,7 @@
         .btn3 {
             margin-top: 25px;
             margin-bottom: 15px;
-            background: linear-gradient(135deg, rgba(0, 255, 255, 0.9), rgba(0, 0, 255, 0.9));
+            background: linear-gradient(135deg, rgba(255, 0, 0, 0.9), rgba(255, 94, 94, 0.9));
             color: #f5f5f5;
             border: none;
             padding: 12px 24px;
@@ -163,7 +164,7 @@
 /*-----------------------------------------------------------------------------*/
     /*SECOND*/
     .second {
-        background: linear-gradient(135deg, rgb(128, 0, 0), rgb(128, 80, 0));
+        background: linear-gradient(135deg, rgb(35, 150, 0), rgb(0, 128, 122));
         margin-bottom: 5px;
     }
 
@@ -185,7 +186,7 @@
             margin-top: 25px;
             margin-left: 20px;
             margin-bottom: 15px;
-            background: linear-gradient(135deg, rgba(255, 0, 102, 0.9), rgba(255, 0, 0, 0.9));
+            background: linear-gradient(135deg, rgba(255, 33, 122, 0.9), rgba(255, 119, 28, 0.9));
             color: #f5f5f5;
             border: none;
             padding: 12px 24px;
@@ -207,7 +208,7 @@
             margin-top: 25px;
             margin-right: 20px;
             margin-bottom: 15px;
-            background: linear-gradient(135deg, rgba(255, 136, 0, 0.9), rgba(255, 0, 0, 0.9));
+            background: linear-gradient(135deg, rgba(255, 165, 0, 0.9), rgba(0, 255, 85, 0.9));
             color: #f5f5f5;
             border: none;
             padding: 12px 24px;
