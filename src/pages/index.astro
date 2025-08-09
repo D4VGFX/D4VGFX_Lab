@@ -6,9 +6,75 @@ import '../styles/style_home.css';
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>D4VGFX Lab | Home</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta property="og:title" content="D4VGFX Lab | Home">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:url" content="https://www.d4vgfx.com">
+        <meta property="og:type" content="website">
         <link rel="icon" href="/favicon.png" type="image/png">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "D4VGFX Lab",
+            "url": "https://www.d4vgfx.com",
+            "description": "",
+            "dateModified": "2025-08-09T09:40:00+02:00",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@d4vgfx.com",
+                "contactType": "customer service",
+                "areaServed": "[Worldwide]",
+                "availableLanguage": ["Italian", "English", "Spanish", "French", "German", "Chinese", "Japanese", "Russian", "Portuguese", "Arabic", "Hindi", "Bengali", "Korean", "Dutch", "Turkish", "Polish", "Swedish", "Norwegian", "Danish", "Finnish"]
+        },
+            "sameAs": [
+                "https://www.instagram.com/d4vgfx",
+                "https://www.tiktok.com/@d4vgfx"
+            ],
+            "knowsAbout": [
+                "graphic design",
+                "digital art",
+                "logo design",
+                "illustrations",
+                "creative branding",
+                "visual identity",
+                "vector graphics",
+                "photo retouching",
+                "digital painting",
+                "UX/UI design",
+                "web design",
+                "print design",
+                "packaging design",
+                "motion graphics",
+                "animation",
+                "advertising design",
+                "social media graphics",
+                "infographics",
+                "brand strategy",
+                "color theory",
+                "layout design",
+                "marketing materials",
+                "creative consulting",
+                "content creation",
+                "digital marketing visuals",
+                "icon design",
+                "illustrative storytelling",
+                "art direction",
+                "typographic logos",
+                "environmental graphics",
+                "presentation design",
+                "banner ads",
+                "photo manipulation",
+                "poster design",
+                "business card design",
+                "flyer design"
+            ]
+        }
+        </script>
     </head>
         <body>
             <nav>
@@ -20,7 +86,7 @@ import '../styles/style_home.css';
                 <div class="navlinks">
                     <a href="/vision-mission/">Vision & Mission</a>
                     <a href="/contact-us/">Contact Us</a>
-                    <a href="/shop-now/">Shop Now</a>
+                    <a href="/shop/">Shop Now</a>
                 </div>
             </nav>
             <section class="first">
@@ -30,8 +96,8 @@ import '../styles/style_home.css';
                     <object data="/assets/image1.svg" type="image/svg+xml" alt=graphicdesigner class="image"></object>
                 </div>
                 <div>
-                    <button class="btn1"><a href="/who-we-are/" class="btn-text">See More</a></button>
-                    <button class="btn2"><a href="/shop/" class="btn-text">Explore our Shop</a></button>
+                    <button class="btn1" onclick="location.href='/who-we-are/'">See More</button>
+                    <button class="btn2" onclick="location.href='/shop/'">Explore our Shop</button>
                 </div>
             </section>
             <section class="second">
@@ -41,8 +107,8 @@ import '../styles/style_home.css';
                     <object data="/assets/image2.svg" type="image/svg+xml" alt=graphicdesigner class="image"></object>
                 </div>
                 <div>
-                    <button class="btn3"><a href="mailto:info@d4gfx.com" class="btn-text">Write Us an e-mail</a></button>
-                    <button class="btn4"><a href="/contact-us/" class="btn-text">Contact Us</a></button>
+                    <button class="btn3" onclick="location.href='/vision-mission/'">See More</button>
+                    <button class="btn4" onclick="location.href='/contact-us/'">Contact Us</button>
                 </div>
             </section>
             <section class="third">
@@ -58,8 +124,8 @@ import '../styles/style_home.css';
                     <object data="/assets/image3.svg" type="image/svg+xml" alt=graphicdesigner class="image"></object>
                 </div>
                 <div>
-                    <button class="btn5"><a href="/contact-us/" class="btn-text">Request a personalized quote</a></button>
-                    <button class="btn6"><a href="/shop/" class="btn-text">See our products</a></button>
+                    <button class="btn5" onclick="location.href='/contact-us/'">Request a personalized quote</button>
+                    <button class="btn6" onclick="location.href='/shop/'">See our products</button>
                 </div>
             </section>
             <section class="fourth">
@@ -69,7 +135,7 @@ import '../styles/style_home.css';
                     <object data="/assets/image4.svg" type="image/svg+xml" alt=graphicdesigner class="image"></object>
                 </div>
                 <div>
-                    <button class="btn7"><a href="/payment/" class="btn-text">See More</a></button>
+                    <button class="btn7" onclick="location.href='/payments/'">See More</button>
                 </div>
             </section>
             <footer>
