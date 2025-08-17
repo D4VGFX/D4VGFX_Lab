@@ -74,7 +74,7 @@
 /*-----------------------------------------------------------------------------*/
     /*FIRST*/
     .first {
-        background: linear-gradient(135deg, rgb(100, 0, 0), rgb(100, 100, 0));
+        background: linear-gradient(135deg, rgb(128, 0, 100), rgb(100, 0, 0));
         margin-bottom: 5px;
     }
 
@@ -93,7 +93,7 @@
 /*-----------------------------------------------------------------------------*/
     /*SECOND*/
     .second {
-        background: linear-gradient(135deg, rgb(0, 100, 128), rgb(128, 0, 51));
+        background: linear-gradient(135deg, rgb(128, 96, 0), rgb(128, 51, 0));
         margin-bottom: 5px;
     }
 
@@ -112,7 +112,7 @@
 /*-----------------------------------------------------------------------------*/
     /*THIRD*/
     .third {
-        background: linear-gradient(135deg, rgb(4, 0, 128), rgb(0, 100, 51));
+        background: linear-gradient(135deg, rgb(0, 0, 100), rgb(0, 100, 128));
         margin-bottom: 5px;
     }
 
@@ -132,7 +132,7 @@
 /*-----------------------------------------------------------------------------*/
     /*FOURTH*/
     .fourth {
-        background: linear-gradient(135deg, rgb(51, 100, 0), rgb(0, 100, 128));
+        background: linear-gradient(135deg, rgb(0, 100, 51), rgb(0, 128, 122));
         margin-bottom: 5px;
     }
 
