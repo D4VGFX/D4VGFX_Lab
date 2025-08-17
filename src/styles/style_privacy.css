@@ -165,6 +165,10 @@
         color: #f5f5f5;
     }
 
+    span {
+        color: #f5f5f5;
+    }
+
         /*FOOTER LINKS*/
         .ftrlinks a {
             list-style: none;
