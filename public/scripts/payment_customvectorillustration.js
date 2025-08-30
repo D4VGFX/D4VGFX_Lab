@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const btn     = document.getElementById('purchase-btn');
 
   const PAYPAL = {
-    basic:    'https://www.paypal.com/ncp/payment/6SKJVZLHS5Q9J',
-    standard: 'https://www.paypal.com/ncp/payment/NKS9LXY38C4YL',
-    premium:  'https://www.paypal.com/ncp/payment/44AP56HTPM2SG'
+    basic:    'https://www.paypal.com/ncp/payment/76XDVWCTJEQ32?no_shipping=1',
+    standard: 'https://www.paypal.com/ncp/payment/SV2ADMH93DBBU?no_shipping=1',
+    premium:  'https://www.paypal.com/ncp/payment/SWAKCB2AAVQEL?no_shipping=1'
   };
 
   const DATA = {
