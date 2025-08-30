@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const DATA = {
-    basic:    { price: '$150 ($50,00 / installment)',  desc: '1 concept, 1 revision, Color and B/W files.' },
-    standard: { price: '$350 ($116,67 / installment)',  desc: '2-3 concepts, 2 revisions, color variants and usage notes.' },
-    premium:  { price: '$900 ($300,00 / installment)',  desc: '4-5 concepts, extended revisions, basic brand usage guide (color, fonts).' }
+    basic:    { price: '$120 ($40,00 / installment)',  desc: 'Single label or sticker design.' },
+    standard: { price: '$350 ($116,67 / installment)',  desc: 'Label + simple box/bag layout with 2 revisions.' },
+    premium:  { price: '$900 ($300,00 / installment)',  desc: 'Full packaging suite (box, wrap, tags), 3D mockups and material/print recommendations.' }
   };
 
   function setButtonState(enabled, url='') {

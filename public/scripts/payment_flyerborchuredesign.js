@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const DATA = {
-    basic:    { price: '$150 ($50,00 / installment)',  desc: '1 concept, 1 revision, Color and B/W files.' },
-    standard: { price: '$350 ($116,67 / installment)',  desc: '2-3 concepts, 2 revisions, color variants and usage notes.' },
-    premium:  { price: '$900 ($300,00 / installment)',  desc: '4-5 concepts, extended revisions, basic brand usage guide (color, fonts).' }
+    basic:    { price: '$100 ($33,33 / installment)',  desc: 'A5/A4 single flyer (front/back) using client copy.' },
+    standard: { price: '$250 ($83,33 / installment)',  desc: 'Multi-page brochure (4-6 pages) or tri-fold with imagery and 2 revisions.' },
+    premium:  { price: '$700 ($233,33 / installment)',  desc: 'Promotional kit (flyer + poster + banner) with coordinated artwork for multiple channels.' }
   };
 
   function setButtonState(enabled, url='') {

@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const DATA = {
-    basic:    { price: '$150 ($50,00 / installment)',  desc: '1 concept, 1 revision, Color and B/W files.' },
-    standard: { price: '$350 ($116,67 / installment)',  desc: '2-3 concepts, 2 revisions, color variants and usage notes.' },
-    premium:  { price: '$900 ($300,00 / installment)',  desc: '4-5 concepts, extended revisions, basic brand usage guide (color, fonts).' }
+    basic:    { price: '$100 ($33,33 / installment)',  desc: '1 simple illustration (limited colors).' },
+    standard: { price: '$300 ($100,00 / installment)',  desc: 'More complex scene with multiple elements, 1 revision.' },
+    premium:  { price: '$900 ($300,00 / installment)',  desc: 'Series of 3-5 related illustrations with high detail and broad color palette.' }
   };
 
   function setButtonState(enabled, url='') {

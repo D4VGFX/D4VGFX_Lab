@@ -12,9 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const DATA = {
-    basic:    { price: '$150 ($50,00 / installment)',  desc: '1 concept, 1 revision, Color and B/W files.' },
-    standard: { price: '$350 ($116,67 / installment)',  desc: '2-3 concepts, 2 revisions, color variants and usage notes.' },
-    premium:  { price: '$900 ($300,00 / installment)',  desc: '4-5 concepts, extended revisions, basic brand usage guide (color, fonts).' }
+    basic:    { price: '$120 ($40,00 / installment)',  desc: 'Template for 5-10 slides with brand look.' },
+    standard: { price: '$350 ($116,67 / installment)',  desc: 'Complete presentation up to 20 slides, 2 revisions.' },
+    premium:  { price: '$900 ($300,00 / installment)',  desc: 'Up to 50 slides, custom illustrations/diagrams and simple graphic animations.' }
+
+    
   };
 
   function setButtonState(enabled, url='') {
@@ -49,10 +51,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (value === 'basic') {
       btn.style.background = "linear-gradient(135deg, #56ab2f, #a8e063)";
+      priceEl.style.color = "#0a0a0a"
+      descEl.style.color = "#0a0a0a"
     } else if (value === 'standard') {
       btn.style.background = "linear-gradient(135deg, #1e3c72, #2758afff)";
+      priceEl.style.color = "#0a0a0a"
+      descEl.style.color = "#0a0a0a"
     } else if (value === 'premium') {
       btn.style.background = "linear-gradient(135deg, #8e2de2, #ff6a00)";
+      priceEl.style.color = "#0a0a0a"
+      descEl.style.color = "#0a0a0a"
     }
     btn.style.color = "white";
     btn.style.border = "none";

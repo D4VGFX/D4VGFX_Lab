@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const DATA = {
-    basic:    { price: '$150 ($50,00 / installment)',  desc: '1 concept, 1 revision, Color and B/W files.' },
-    standard: { price: '$350 ($116,67 / installment)',  desc: '2-3 concepts, 2 revisions, color variants and usage notes.' },
-    premium:  { price: '$900 ($300,00 / installment)',  desc: '4-5 concepts, extended revisions, basic brand usage guide (color, fonts).' }
+    basic:    { price: '$80 ($26,67 / installment)',  desc: 'Single double-sided business card design.' },
+    standard: { price: '$200 ($66,67 / installment)',  desc: 'Business cards + letterhead + envelope designs.' },
+    premium:  { price: '$500 ($166,67 / installment)',  desc: 'Additional email signature graphic and print mockups.' }
   };
 
   function setButtonState(enabled, url='') {

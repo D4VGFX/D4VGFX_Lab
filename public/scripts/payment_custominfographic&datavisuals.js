@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const DATA = {
-    basic:    { price: '$150 ($50,00 / installment)',  desc: '1 concept, 1 revision, Color and B/W files.' },
-    standard: { price: '$350 ($116,67 / installment)',  desc: '2-3 concepts, 2 revisions, color variants and usage notes.' },
-    premium:  { price: '$900 ($300,00 / installment)',  desc: '4-5 concepts, extended revisions, basic brand usage guide (color, fonts).' }
+    basic:    { price: '$120 ($40,00 / installment)',  desc: 'Single infographic, simple layout.' },
+    standard: { price: '$200 ($66,67 / installment)',  desc: 'Multi-section infographic or two related visuals + supporting icons.' },
+    premium:  { price: '$700 ($233,33 / installment)',  desc: 'Complex multi-page infographics or a series, custom illustrations, and export-ready versions.' }
   };
 
   function setButtonState(enabled, url='') {

@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const DATA = {
-    basic:    { price: '$150 ($50,00 / installment)',  desc: '1 concept, 1 revision, Color and B/W files.' },
-    standard: { price: '$350 ($116,67 / installment)',  desc: '2-3 concepts, 2 revisions, color variants and usage notes.' },
-    premium:  { price: '$900 ($300,00 / installment)',  desc: '4-5 concepts, extended revisions, basic brand usage guide (color, fonts).' }
+    basic:    { price: '$300 ($100,00 / installment)',  desc: 'Logo + color palette + typography suggestions + short guide.' },
+    standard: { price: '$700 ($233,33 / installment)',  desc: 'Above + business card and letterhead designs.' },
+    premium:  { price: '$1800 ($600,00 / installment)',  desc: 'Full brand guidelines with examples, patterns and expanded templates.' }
   };
 
   function setButtonState(enabled, url='') {
