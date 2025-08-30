@@ -93,7 +93,7 @@
     }
 
     .content-2, .content-3, .content-4, .content-5, .content-6, .content-7, .content-8, .content-9 {
-        padding-top: 31px;
+        padding-top: 31;
     }
 /*-----------------------------------------------------------------------------*/
     /*SECTION TEXTS*/
@@ -108,7 +108,22 @@
         font-weight: 400;
         width: 75%;
         margin: 0 auto;
+    }
+
+    h2:first-child {
+        margin-top: 0px
+    }
+
+    h2:last-child {
         padding-bottom: 45px;
+    }
+
+    .date {
+        width: 75%;
+        margin: 0 auto;
+        text-align: right;
+        color: #0a0a0a;
+        font-weight: 200;
     }
 /*-----------------------------------------------------------------------------*/
     /*FOOTER*/
@@ -258,6 +273,11 @@
             h2 {
                 font-size: 12px;
                 width: 75%;
+                margin-top: 10px;
+            }
+
+            h2:last-child {
+                padding-bottom: 25px;
             }
 /*-----------------------------------------------------------------------------*/
             /*FOOTER*/
@@ -362,6 +382,11 @@
             h2 {
                 font-size: 14px;
                 width: 75%;
+                margin-top: 15px;
+            }
+
+            h2:last-child {
+                padding-bottom: 30px;
             }
 /*-----------------------------------------------------------------------------*/
             /*FOOTER*/
@@ -466,6 +491,11 @@
             h2 {
                 font-size: 16px;
                 width: 75%;
+                margin-top: 17.5px;
+            }
+
+            h2:last-child {
+                padding-bottom: 45px;
             }
 /*-----------------------------------------------------------------------------*/
             /*FOOTER*/

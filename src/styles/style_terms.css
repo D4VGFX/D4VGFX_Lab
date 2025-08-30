@@ -108,6 +108,13 @@
         font-weight: 400;
         width: 75%;
         margin: 0 auto;
+    }
+
+    h2:first-child {
+        margin-top: 0px
+    }
+
+    h2:last-child {
         padding-bottom: 45px;
     }
 
@@ -266,6 +273,11 @@
             h2 {
                 font-size: 12px;
                 width: 75%;
+                margin-top: 10px;
+            }
+
+            h2:last-child {
+                padding-bottom: 25px;
             }
 /*-----------------------------------------------------------------------------*/
             /*FOOTER*/
@@ -370,6 +382,11 @@
             h2 {
                 font-size: 14px;
                 width: 75%;
+                margin-top: 15px;
+            }
+
+            h2:last-child {
+                padding-bottom: 30px;
             }
 /*-----------------------------------------------------------------------------*/
             /*FOOTER*/
@@ -474,6 +491,11 @@
             h2 {
                 font-size: 16px;
                 width: 75%;
+                margin-top: 17.5px;
+            }
+
+            h2:last-child {
+                padding-bottom: 45px;
             }
 /*-----------------------------------------------------------------------------*/
             /*FOOTER*/
