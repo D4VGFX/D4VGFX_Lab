@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const DATA = {
   basic: {
     original: '$1230',
-    price: '$984',
-    installment: '($328,00 / installment)',
-    desc: 'ALL Basic Services, 15% OFF! (See below for details.)'
+    price: '$922,50',
+    installment: '($307,50 / installment)',
+    desc: 'ALL Basic Services, 25% OFF! (See below for details.)'
   },
   standard: {
     original: '$3180',
@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   premium: {
     original: '$8350',
-    price: '$5845',
-    installment: '($1948,33 / installment)',
-    desc: 'ALL Premium Services, 30% OFF! (See below for details.)'
+    price: '$7097,50',
+    installment: '($2365,83 / installment)',
+    desc: 'ALL Premium Services, 15% OFF! (See below for details.)'
   }
 };
 

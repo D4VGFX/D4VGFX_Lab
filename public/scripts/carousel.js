@@ -21,29 +21,32 @@ document.addEventListener("DOMContentLoaded", function () {
   if (nextBtn) nextBtn.addEventListener('click', () => showSlide(index + 1));
   if (prevBtn) prevBtn.addEventListener('click', () => showSlide(index - 1));
 
-  if (images.length > 1) {
-    setInterval(() => showSlide(index + 1), 5000);
-  }
-
   if (window.innerWidth >= 320 && window.innerWidth <= 767.98) {
     let startX = 0;
     let endX = 0;
 
-    slides.addEventListener('touchstart', (e) => {
+    slides.addEventListener("touchstart", (e) => {
       startX = e.touches[0].clientX;
     });
 
-    slides.addEventListener('touchend', (e) => {
+    slides.addEventListener("touchend", (e) => {
       endX = e.changedTouches[0].clientX;
+      handleSwipe();
+    });
+
+    function handleSwipe() {
       const diffX = startX - endX;
 
+      // soglia minima per evitare tocchi accidentali
       if (Math.abs(diffX) > 50) {
         if (diffX > 0) {
+          // swipe verso sinistra
           showSlide(index + 1);
         } else {
+          // swipe verso destra
           showSlide(index - 1);
         }
       }
-    });
+    }
   }
 });
